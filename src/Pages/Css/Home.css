@@ -32,13 +32,24 @@
     border-radius: 10px;
 }
 
-.seller-img img {
-
+.seller-main h1 {
+    margin: 20px;
 }
 
-.seller-box{ 
+.seller-sub {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.seller-box {
+    width: 20%;
+    text-align: start;
+}
+
+.seller-box-img { 
     position: relative;
-    width: 25%;
+    width: 100%;
 }
 
 .seller-img {
@@ -82,6 +93,7 @@
 
 .img-data span {
     color: #13294b;
+    font-size: 20px;
 }
 
 .img-price h3 {
@@ -95,11 +107,113 @@
     color: #000000;
 }
 
+.size-button {
+    margin: 8px 0;
+}
+
 .size-button button {
     padding: 5px;
     border-radius: 5px;
     background-color: white;
     color: #7B7B7B;
-    border-color: #7B7B7B;
+    border: 1px solid #7B7B7B;
     margin: 0 5px;
+}
+
+.img-data h1 {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+.img-price {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.cart-btn {
+    width: 100%;
+    background-color: #13294B;
+    color: white;
+    line-height: 40px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.view-btn {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.global-sub {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.global-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.shop-btn {
+    background-color: #13294B;
+    border: 0;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.shopify-text {
+    color: #15284b;
+}
+
+.shopify-text h1 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.shopify-text p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.shopify-text h3 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.shopify-text a p {
+    color: #15284b;
+}
+
+.shopify-sub {
+    margin-bottom: 50px;
+}
+
+.terms {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: start;
+    padding: 60px;
+}
+
+.terms-main {
+    background-color: #eeeeee;
 }
