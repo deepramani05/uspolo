@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-main {
+    margin-bottom: 50px;
+}
+
+.banner-2-sub img {
+    width: 100vh;
+}
+
+.gallary-main {
+    margin-top: 50px;
+}
+
+.gallary-sub {
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.gallary-div {
+    width: 25%;
+}
+
+.gallary-div a img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.seller-img img {
+
+}
+
+.seller-box{ 
+    position: relative;
+    width: 25%;
+}
+
+.seller-img {
+    width: 100%;
+}
+
+.seller-img img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.img-text {
+    position: absolute;
+    top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.img-text h4 {
+    padding: 5px 10px;
+    background-color: #a2323f;
+    font-weight: 400;
+}
+
+.img-icon {
+    padding: 0 10px 0 0;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img-data h1 {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.img-data span {
+    color: #13294b;
+}
+
+.img-price h3 {
+    font-size: 16px;
+    color: #a2323f;
+    font-weight: 500;
+}
+
+.img-price p {
+    font-size: 12px;
+    color: #000000;
+}
+
+.size-button button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: #7B7B7B;
+    border-color: #7B7B7B;
+    margin: 0 5px;
+}
