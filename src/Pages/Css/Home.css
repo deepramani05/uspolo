@@ -217,3 +217,61 @@
 .terms-main {
     background-color: #eeeeee;
 }
+
+.login-div {
+    margin: 50px;
+}
+
+.login-logo {
+    margin: 50px;
+}
+
+.login-text h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #000000;
+    font-family: Helvetica;
+    margin: 50px;
+}
+
+.login-inp {
+    padding: 15px;
+    width: 400px;
+    margin: 15px;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px 1px;
+}
+
+.check-div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin: 20px;
+}
+
+.submit-inp {
+    width: 400px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px;
+    border: 0;
+    background-color: rgb(43, 58, 84);
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+.toggle-main a {
+    text-decoration: none;
+}
+
+.toggle {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;
+    font-family: Helvetica;
+}

@@ -11,7 +11,7 @@ import Sale from './Sale'
 import Home from './Home'
 import Watchlist from '../Logo/Watchlist'
 import Cart from '../Logo/Cart'
-import Login from '../Logo/Login'
+import Toggle from '../Logo/Toggle'
 import Poloshirts from './Poloshirts'
 import Jeans from './Jeans'
 import Shirts from './Shirts'
@@ -32,7 +32,7 @@ const Allroutes = () => {
         <Route path='/sale' element={<Sale/>} />
         <Route path='/watchlist' element={<Watchlist/>}/>
         <Route path='/cart' element={<Cart/>}/>
-        <Route path='/login' element={<Login/>}/>
+        <Route path='/loginpage' element={<Toggle/>}/>
         <Route path='/polo-shirts' element={<Poloshirts/>}/>
         <Route path='jeans' element={<Jeans/>}/>
         <Route path='/shirts' element={<Shirts/>}/>
