@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import '../Css/Home.css'
 
-const Login = () => {
+const Login = (dispatch) => {
   let [email, setEmail] = useState("");
 
   let [password, setPassword] = useState("");
@@ -14,6 +14,7 @@ const Login = () => {
       .get(`http://localhost:5000/users?email=${email}`)
       .then((res) => {
         console.log(res.data);
+        // dispatch(handlelogin.res.data)
         if (res.data[0].email == email && res.data[0].password == password) {
           alert("Logged In");
         } else {

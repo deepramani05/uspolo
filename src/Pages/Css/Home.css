@@ -275,3 +275,79 @@
     color: #000000;
     font-family: Helvetica;
 }
+
+.footer-main {
+    background-color: #13294b;
+}
+
+.footer-sub {
+    display: flex;
+}
+
+.footer-sub h1 {
+    font-size: 19px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: Helvetica;
+    line-height: 50px;
+}
+
+.footer-sub a {
+    text-decoration: none;
+}
+
+.footer-sub p {
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: Helvetica;
+}
+
+.footer-text {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.footer-policy,
+.footer-help,
+.footer-about {
+    text-align: start;
+}
+
+.footer-follow {
+    width: 30%;
+    text-align: start;
+    padding: 50px;
+}
+
+.footer-icon a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: Helvetica;
+    margin: 0 20px 0 0;
+}
+
+.inp {
+    margin: 30px 0;
+}
+
+.inp input {
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    border: 0;
+    width: 300px;
+}
+
+.inp button {
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid white;
+    background-color: #13294b;
+    color: white;
+}

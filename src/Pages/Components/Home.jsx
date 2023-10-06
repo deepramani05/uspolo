@@ -7,6 +7,7 @@ import Seller from "./Seller";
 import Global from "./Global";
 import Shopify from "./Shopify";
 import Terms from "./Terms";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Global/>
       <Shopify/>
       <Terms/>
+      <Footer/>
     </div>
   );
 };
