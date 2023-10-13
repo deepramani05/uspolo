@@ -2,11 +2,16 @@ import axios from "axios";
 import React from "react";
 import { useState } from "react";
 import "../Css/Home.css";
+import { useDispatch, useSelector } from "react-redux";
 
 const Signup = () => {
   let [name, setName] = useState("");
   let [email, setEmail] = useState("");
   let [password, setPassword] = useState("");
+
+  let value = useSelector(store=>store)
+  console.log(value.user);
+  let dispatch = useDispatch()
 
   const handleform = (e) => {
     e.preventDefault();
