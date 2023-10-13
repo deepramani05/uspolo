@@ -43,7 +43,7 @@ const Logo = () => {
             </Link>
           </div>
           <div>
-            <Link to="/login">
+            <Link to="/loginpage">
               <AiOutlineUser />
             </Link>
           </div>

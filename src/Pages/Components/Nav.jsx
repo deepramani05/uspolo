@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../Css/Nav.css";
 import Ad from '../Sliders/Ad'
 import Logo from '../Logo/Logo'
+import Privateroute from "./Privateroute";
 
 
 const Nav = () => {
@@ -17,7 +18,7 @@ const Nav = () => {
           <h3>NEW ARRIVALS</h3>
         </Link>
         <Link className="nav-a" to="/collections">
-          <h3>COLLECTIONS</h3>
+          <Privateroute><h3>COLLECTIONS</h3></Privateroute>
         </Link>
         <Link className="nav-a" to="/men">
           <h3>MEN</h3>
