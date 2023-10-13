@@ -10,7 +10,7 @@ const Cart = () => {
 
     axios.get(`http://localhost:5000/cart`)
     .then((res) => {
-      setproduct((res.data));
+      console.log((res.data));
     })
     .catch((err) => {
       console.log(err);
@@ -19,7 +19,7 @@ const Cart = () => {
 
   return (
     <div>
-      
+
     </div>
   )
 }
